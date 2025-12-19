@@ -1,0 +1,13 @@
+[project]
+name = "test-process"
+version = "0.2.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "automation-server-client",
+    "playwright==1.55.0",
+]
+
+[tool.uv.sources]
+automation-server-client = { git = "https://github.com/odense-rpa/automation-server-client.git", rev = "v0.2.0" }
